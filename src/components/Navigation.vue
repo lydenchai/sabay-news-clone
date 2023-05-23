@@ -76,7 +76,7 @@
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
   position: relative;
-  font-weight: 550;
+  font-weight: 600;
 }
 
 .navbar-nav > li {
@@ -87,7 +87,7 @@
 }
 
 .nav > li > a {
-  padding: 10px 14px;
+  padding: 8px 14px;
 }
 
 a {
