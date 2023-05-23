@@ -87,7 +87,7 @@
 }
 
 .nav > li > a {
-  padding: 10px 15px;
+  padding: 10px 14px;
 }
 
 a {
