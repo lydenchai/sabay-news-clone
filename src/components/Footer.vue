@@ -96,7 +96,7 @@
           </a>
         </div>
       </div>
-      <div class="contact flex flex-col w-[30%] pl-8">
+      <div class="contact flex flex-col w-[30%] pl-9">
         <div class="text-[20px] mb-7">
           <strong>ជួបគ្នានៅបណ្តាញសង្គម</strong>
         </div>
