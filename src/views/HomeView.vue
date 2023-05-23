@@ -1,11 +1,7 @@
 <template>
-  <div>
-    Home page
-  </div>
+  <div>This is home page</div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss" scoped></style>
