@@ -6,7 +6,7 @@
       <div class="features_post flex flex-col h-full w-[73.3%]">
         <div class="features_post_top w-full h-[500px] flex">
           <div
-            class="w-[60%] h-[250px] relative"
+            class="bg-img w-[60%] h-[250px] relative"
             style="
               background-image: url(https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646c2c2b289b5_1684810740_large.jpg);
               background-size: 100% 250px;
@@ -14,12 +14,25 @@
               background-repeat: no-repeat;
             "
           >
-            <!-- <div class="absolute">
-              <div class="bg-black w-[100px]">Click me</div>
+            <div class="absolute">
+              <RouterLink to="/entertainment">
+                <div class="category-btn w-[100px]">
+                  ជីវិតនិងសង្គម
+                  <div class="corner"></div>
+                </div>
+              </RouterLink>
             </div>
-            <div class="absolute bottom-0">
-              <div class="bg-green-400 w-[100px]">Click me</div>
-            </div> -->
+            <div class="feature_post_content absolute bottom-0">
+              <div class="p-5">
+                <div
+                  class="text-white mb-3 hover:text-red-500 text-[20px] font-medium"
+                >
+                  អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
+                  ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
+                </div>
+                <div class="w-[100px] text-white">ថ្ងៃនេះ ម៉ោង 13:12</div>
+              </div>
+            </div>
           </div>
           <div
             class="w-[40%] h-[250px] relative"
@@ -29,7 +42,27 @@
               background-position: center;
               background-repeat: no-repeat;
             "
-          ></div>
+          >
+            <div class="absolute">
+              <RouterLink to="/entertainment">
+                <div class="category-btn w-[100px]">
+                  ជីវិតនិងសង្គម
+                  <div class="corner"></div>
+                </div>
+              </RouterLink>
+            </div>
+            <div class="feature_post_content absolute bottom-0">
+              <div class="p-5">
+                <div
+                  class="text-white mb-3 hover:text-red-500 text-[20px] font-medium"
+                >
+                  អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
+                  ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
+                </div>
+                <div class="w-[100px] text-white">ថ្ងៃនេះ ម៉ោង 13:12</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="features_post_top w-full h-[500px] flex">
           <div
@@ -41,12 +74,25 @@
               background-repeat: no-repeat;
             "
           >
-            <!-- <div class="absolute">
-              <div class="bg-black w-[100px]">Click me</div>
+            <div class="absolute">
+              <RouterLink to="/entertainment">
+                <div class="category-btn w-[100px]">
+                  ជីវិតនិងសង្គម
+                  <div class="corner"></div>
+                </div>
+              </RouterLink>
             </div>
-            <div class="absolute bottom-0">
-              <div class="bg-green-400 w-[100px]">Click me</div>
-            </div> -->
+            <div class="feature_post_content absolute bottom-0">
+              <div class="p-5">
+                <div
+                  class="text-white mb-3 hover:text-red-500 text-[20px] font-medium"
+                >
+                  អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
+                  ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
+                </div>
+                <div class="w-[100px] text-white">ថ្ងៃនេះ ម៉ោង 13:12</div>
+              </div>
+            </div>
           </div>
           <div
             class="w-[40%] h-[250px] relative"
@@ -56,7 +102,27 @@
               background-position: center;
               background-repeat: no-repeat;
             "
-          ></div>
+          >
+            <div class="absolute">
+              <RouterLink to="/entertainment">
+                <div class="category-btn w-[100px]">
+                  ជីវិតនិងសង្គម
+                  <div class="corner"></div>
+                </div>
+              </RouterLink>
+            </div>
+            <div class="feature_post_content absolute bottom-0">
+              <div class="p-5">
+                <div
+                  class="text-white mb-3 hover:text-red-500 text-[20px] font-medium"
+                >
+                  អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
+                  ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
+                </div>
+                <div class="w-[100px] text-white">ថ្ងៃនេះ ម៉ោង 13:12</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="top-right-ads w-[26%]">
@@ -93,6 +159,51 @@
       background: #ffffff;
       box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
     }
+  }
+}
+.feature_post_content {
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.603));
+}
+.category-btn {
+  background: #f9a62b;
+  font-size: 13px;
+  padding: 2px 8px 0 15px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  color: #ffffff;
+  height: 35px;
+  line-height: 35px;
+  // &category-btn1 {
+  //   background: #f9a62b;
+  // }
+  // &category-btn1 {
+  //   background: #38c378;
+  // }
+  // &category-btn1 {
+  //   background: #fa5480;
+  // }
+  // &category-btn1 {
+  //   background: #f9a62b;
+  // }
+  .corner {
+    position: absolute;
+    top: 0;
+    right: -13px;
+    border-width: 35px 0 0 13px;
+    border-color: transparent transparent transparent #f9a62b;
+    // &corner1 {
+    //   border-color: transparent transparent transparent #f9a62b;
+    // }
+    // &corner2 {
+    //   border-color: transparent transparent transparent #38c378;
+    // }
+    // &corner3 {
+    //   border-color: transparent transparent transparent #fa5480;
+    // }
+    // &corner3 {
+    //   border-color: transparent transparent transparent #f9a62b;
+    // }
   }
 }
 </style>
