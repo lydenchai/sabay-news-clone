@@ -7,7 +7,7 @@ import Footer from "./components/Footer.vue";
 <template>
   <div>
     <Navigation />
-    <div>
+    <div class="px-[20.3%]">
       <RouterView />
     </div>
     <Footer />
