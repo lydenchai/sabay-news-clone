@@ -1,5 +1,9 @@
 <template>
-  <div class="w-full h-auto mb-[80px]">This ia an life page</div>
+  <div class="w-full h-auto mb-[80px]">
+    <div class="flex justify-between mt-4 w-full">
+      Life page
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts"></script>

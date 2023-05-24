@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-auto mb-[80px] home-container">
-    <div class="container flex justify-between my-4 w-full h-[500px] mb-4 border-collapse">
+    <div class="flex justify-between mt-4 w-full h-[500px] border-collapse">
       <div class="features_post flex flex-col h-full w-[73.3%]">
         <div class="features_post_top w-full h-[500px] flex">
           <div class="bg-img w-[57.5%] h-[250px] relative" style="
