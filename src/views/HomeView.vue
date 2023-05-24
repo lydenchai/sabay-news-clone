@@ -20,8 +20,11 @@
             <div class="feature_post_content absolute bottom-0">
               <div class="p-5">
                 <div class="text-white mb-3 hover:text-red-500 text-[16px] font-medium">
-                  ស្ថាបនិកក្រុមហ៊ុន Microsoft លោក ប៊ីល ហ្គេត បាន​អះអាង​ក្នុងព្រឹត្តិការណ៍ AI Forward 2023
-                  កាលពីថ្ងៃទី២២ឧសភា​ថា AI នឹង​ចូលមកជំនួស​រឿង២យ៉ាងធំបំផុត​លើអ៊ីនធើណេតគឺ​ search engine និង​វេបសាយ​លក់ទំនិញ។
+                  ស្ថាបនិកក្រុមហ៊ុន Microsoft លោក ប៊ីល ហ្គេត
+                  បាន​អះអាង​ក្នុងព្រឹត្តិការណ៍ AI Forward 2023
+                  កាលពីថ្ងៃទី២២ឧសភា​ថា AI
+                  នឹង​ចូលមកជំនួស​រឿង២យ៉ាងធំបំផុត​លើអ៊ីនធើណេតគឺ​ search engine
+                  និង​វេបសាយ​លក់ទំនិញ។
                 </div>
                 <div class="text-white">ថ្ងៃនេះ ម៉ោង 13:12</div>
               </div>
@@ -35,7 +38,7 @@
             ">
             <div class="absolute">
               <RouterLink to="/entertainment">
-                <div class="category-btn category-btn2 w-auto">
+                <div class="category-btn category-btn2 w-[100px]">
                   ជីវិតនិងសង្គម
                   <div class="corner corner2"></div>
                 </div>
@@ -85,7 +88,7 @@
             ">
             <div class="absolute">
               <RouterLink to="/entertainment">
-                <div class="category-btn category-btn4 w-auto">
+                <div class="category-btn category-btn4 w-[100px]">
                   ជីវិតនិងសង្គម
                   <div class="corner corner4"></div>
                 </div>
@@ -117,7 +120,7 @@
             <div class="corner-tab corner-entertainment"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category  h-[380px] mt-[30px] border-t-2 border-[#FA5480]">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#FA5480]">
           <!-- Todo -->
         </div>
       </div>
@@ -129,19 +132,19 @@
             <div class="corner-tab corner-technology"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category  h-[380px] mt-[30px] border-t-2 border-[#38c378]">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#38c378]">
           <!-- Todo -->
         </div>
       </div>
       <div class="category h-[428px] mt-[20px] flex flex-col relative">
         <RouterLink to="/entertainment">
-          <div class="flex items-center tab tab-social w-auto">
+          <div class="flex items-center tab tab-life w-auto">
             បច្ចេកវិទ្យា
             <Icon icon="ic:baseline-greater-than" class="text-[20px] ml-1" />
-            <div class="corner-tab corner-social"></div>
+            <div class="corner-tab corner-life"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category  h-[380px] mt-[30px] border-t-2 border-[#f9a62b]">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#f9a62b]">
           <!-- Todo -->
         </div>
       </div>
@@ -153,7 +156,7 @@
             <div class="corner-tab corner-sport"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category  h-[380px] mt-[30px] border-t-2 border-[#4390F8]">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#4390F8]">
           <!-- Todo -->
         </div>
       </div>
@@ -165,11 +168,10 @@
             <div class="corner-tab corner-deal"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category  h-[380px] mt-[30px] border-t-2 border-[#555555]">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#555555]">
           <!-- Todo -->
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -200,7 +202,6 @@
   height: 40px;
   line-height: 40px;
 
-
   &.tab-entertainment {
     background: #fa5480;
   }
@@ -209,12 +210,12 @@
     background: #38c378;
   }
 
-  &.tab-social {
+  &.tab-life {
     background: #f9a62b;
   }
 
   &.tab-sport {
-    background: #4390F8;
+    background: #4390f8;
   }
 
   &.tab-deal {
@@ -235,18 +236,17 @@
       border-color: transparent transparent transparent #38c378;
     }
 
-    &.corner-social {
+    &.corner-life {
       border-color: transparent transparent transparent #f9a62b;
     }
 
     &.corner-sport {
-      border-color: transparent transparent transparent #4390F8;
+      border-color: transparent transparent transparent #4390f8;
     }
 
     &.corner-deal {
       border-color: transparent transparent transparent #555555;
     }
-
   }
 }
 
