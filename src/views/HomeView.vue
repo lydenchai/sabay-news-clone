@@ -200,74 +200,6 @@
     background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.603));
   }
 
-  .tab {
-    left: 0px;
-    top: -13px;
-    height: 45px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #ffffff;
-    line-height: 45px;
-    position: absolute;
-    padding: 2px 8px 0 15px;
-
-    &.tab-video {
-      background: #F2272F;
-      ;
-    }
-
-    &.tab-entertainment {
-      background: #fa5480;
-    }
-
-    &.tab-technology {
-      background: #38c378;
-    }
-
-    &.tab-life {
-      background: #f9a62b;
-    }
-
-    &.tab-sport {
-      background: #4390f8;
-    }
-
-    &.tab-deal {
-      background: #555555;
-    }
-
-    .corner-tab {
-      top: 0px;
-      right: -13px;
-      position: absolute;
-      border-width: 45px 0 0 13px;
-
-      &.corner-video {
-        border-color: transparent transparent transparent #F2272F;
-      }
-
-      &.corner-entertainment {
-        border-color: transparent transparent transparent #fa5480;
-      }
-
-      &.corner-technology {
-        border-color: transparent transparent transparent #38c378;
-      }
-
-      &.corner-life {
-        border-color: transparent transparent transparent #f9a62b;
-      }
-
-      &.corner-sport {
-        border-color: transparent transparent transparent #4390f8;
-      }
-
-      &.corner-deal {
-        border-color: transparent transparent transparent #555555;
-      }
-    }
-  }
-
   .category-btn {
     top: 10px;
     left: 0px;
@@ -315,6 +247,74 @@
 
       &.corner4 {
         border-color: transparent transparent transparent #4390f8;
+      }
+    }
+  }
+
+  .tab {
+    left: 0px;
+    top: -13px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 45px;
+    position: absolute;
+    padding: 2px 8px 0 15px;
+
+    &.tab-video {
+      background: #F2272F;
+      ;
+    }
+
+    &.tab-entertainment {
+      background: #fa5480;
+    }
+
+    &.tab-technology {
+      background: #38c378;
+    }
+
+    &.tab-life {
+      background: #f9a62b;
+    }
+
+    &.tab-sport {
+      background: #4390f8;
+    }
+
+    &.tab-deal {
+      background: #555555;
+    }
+
+    .corner-tab {
+      top: 0px;
+      right: -12.5px;
+      position: absolute;
+      border-width: 45px 0 0 13px;
+
+      &.corner-video {
+        border-color: transparent transparent transparent #F2272F;
+      }
+
+      &.corner-entertainment {
+        border-color: transparent transparent transparent #fa5480;
+      }
+
+      &.corner-technology {
+        border-color: transparent transparent transparent #38c378;
+      }
+
+      &.corner-life {
+        border-color: transparent transparent transparent #f9a62b;
+      }
+
+      &.corner-sport {
+        border-color: transparent transparent transparent #4390f8;
+      }
+
+      &.corner-deal {
+        border-color: transparent transparent transparent #555555;
       }
     }
   }
