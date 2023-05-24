@@ -2,13 +2,9 @@
   <section class="w-full h-[295px] px-[20.3%] bg-black flex items-center">
     <div class="container flex justify-between">
       <div class="copyright flex flex-col w-[30%]">
-        <img
-          src="https://news.sabay.com.kh/img/footer-logo.png"
-          class="w-[140px] h-[60px] mb-3"
-        />
+        <img src="https://news.sabay.com.kh/img/footer-logo.png" class="w-[140px] h-[60px] mb-3" />
         <div>​© រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ Sabay ឆ្នាំ​២០១៦</div>
-        <a href="" class="text-[15px] my-3"
-          >គោលការណ៍​ភាព​ឯកជន | Privacy Policy
+        <a href="" class="text-[15px] my-3">គោលការណ៍​ភាព​ឯកជន | Privacy Policy
         </a>
         <div class="text-[15px] text-white mb-2">
           <strong>អាសយដ្ឋាន</strong>
@@ -29,74 +25,51 @@
         <div class="text-[15px] mb-3">ផលិត​ផល​ និង​ សេវាកម្ម របស់ Sabay</div>
         <div class="logo flex items-center">
           <a href="https://news.sabay.com.kh">
-            <img
-              src="https://news.sabay.com.kh/img/logo.png"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+            <img src="https://news.sabay.com.kh/img/logo.png" class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
           <a href="https://kanha.sabay.com.kh">
-            <img
-              src="https://kanha.sabay.com.kh/img/logo.png"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+            <img src="https://kanha.sabay.com.kh/img/logo.png" class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
           <a href="https://enovel.sabay.com.kh">
             <img
               src="https://play-lh.googleusercontent.com/ibNkgSvV2DNMCbrIxd1YwdC1ntDTAtCpSGZ-wyV_qRm3kMYAsjQUFML6rlFxTvOw_yn3"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+              class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
           <a href="https://kleykley.sabay.com.kh">
-            <img
-              src="https://kleykley.sabay.com.kh/img/logo.png"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+            <img src="https://kleykley.sabay.com.kh/img/logo.png" class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
           <a href="https://der.sabay.com.kh/">
-            <img
-              src="https://der.sabay.com.kh/img/logo.png"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+            <img src="https://der.sabay.com.kh/img/logo.png" class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
           <a href="https://entertainment.sabay.com.kh">
             <img
               src="https://cdn.sabay.com/cdn/media.sabay.com/media/publications/logos/61d5007946e0b_1641349200_small.png"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+              class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
           <a href="https://social.sabay.com.kh">
             <img
               src="https://cdn.sabay.com/cdn/media.sabay.com/media/publications/logos/61d501f25761a_1641349560_small.png"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+              class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
           <a href="https://sport.sabay.com.kh">
             <img
               src="https://cdn.sabay.com/cdn/media.sabay.com/media/publications/logos/61d50338ea098_1641349920_small.png"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+              class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
           <a href="https://tech.sabay.com.kh">
             <img
               src="https://cdn.sabay.com/cdn/media.sabay.com/media/publications/logos/61d4f62a95ade_1641346560_small.png"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+              class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
           <a href="https://business.sabay.com.kh">
-            <img
-              src="https://business.sabay.com.kh/img/logo.png"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+            <img src="https://business.sabay.com.kh/img/logo.png" class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
           <a href="https://auto.sabay.com.kh">
-            <img
-              src="https://auto.sabay.com.kh/img/logo.png"
-              class="w-[30px] h-[30px] mr-2 rounded-full"
-            />
+            <img src="https://auto.sabay.com.kh/img/logo.png" class="w-[30px] h-[30px] mr-2 rounded-full" />
           </a>
         </div>
       </div>
-      <div class="contact flex flex-col w-[30%] pl-8">
+      <div class="contact flex flex-col w-[30%] pl-9">
         <div class="text-[20px] mb-7">
           <strong>ជួបគ្នានៅបណ្តាញសង្គម</strong>
         </div>
@@ -133,6 +106,7 @@
 section {
   color: #abaaab;
 }
+
 a:hover {
   color: #ffffff;
   transition: 0.3s;

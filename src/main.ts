@@ -4,7 +4,7 @@ import router from "./router";
 import { createPinia } from "pinia";
 import { Icon } from "@iconify/vue";
 
-import "./assets/main.css";
+import "./assets/main.scss";
 import "vant/lib/index.css";
 
 const app = createApp(App);
