@@ -63,17 +63,13 @@
 <script setup lang="ts"></script>
 
 <style lang="scss" scoped>
-#menu {
-  color: #bdb9a6;
-}
-
 a.router-link-exact-active {
   color: #fff;
   background: #d90c16;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-a.router-link-exact-active:hover {
+a:hover {
   color: #fff;
   transition: 0.3s;
 }

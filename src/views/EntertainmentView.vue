@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-auto mb-[100px]">
+  <div class="w-full h-auto mb-[80px]">
     This ia an entertainment page
   </div>
 </template>
