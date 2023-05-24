@@ -120,8 +120,8 @@
             <div class="corner-tab corner-video"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#FA5480]">
-          <!-- Todo -->
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#FA5480] px-8 pt-5 pb-3">
+          <div class="bg-slate-200 w-full h-full">Video</div>
         </div>
       </div>
       <div class="category h-[428px] mt-[20px] flex flex-col relative">
@@ -132,8 +132,8 @@
             <div class="corner-tab corner-entertainment"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#FA5480]">
-          <!-- Todo -->
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#FA5480] px-8 pt-5 pb-3">
+          <div class="bg-slate-200 w-full h-full">Entertainment</div>
         </div>
       </div>
       <div class="category h-[428px] mt-[20px] flex flex-col relative">
@@ -144,8 +144,8 @@
             <div class="corner-tab corner-technology"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#38c378]">
-          <!-- Todo -->
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#38c378] px-8 pt-5 pb-3">
+          <div class="bg-slate-200 w-full h-full">Technology</div>
         </div>
       </div>
       <div class="category h-[428px] mt-[20px] flex flex-col relative">
@@ -156,8 +156,8 @@
             <div class="corner-tab corner-life"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#f9a62b]">
-          <!-- Todo -->
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#f9a62b] px-8 pt-5 pb-3">
+          <div class="bg-slate-200 w-full h-full">Life and social</div>
         </div>
       </div>
       <div class="category h-[428px] mt-[20px] flex flex-col relative">
@@ -168,8 +168,8 @@
             <div class="corner-tab corner-sport"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#4390F8]">
-          <!-- Todo -->
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#4390F8] px-8 pt-5 pb-3">
+          <div class="bg-slate-200 w-full h-full">Sports</div>
         </div>
       </div>
       <div class="category h-[428px] mt-[20px] flex flex-col relative">
@@ -180,8 +180,8 @@
             <div class="corner-tab corner-deal"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-2 border-[#555555]">
-          <!-- Todo -->
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#555555] px-8 pt-5 pb-3">
+          <div class="bg-slate-200 w-full h-full">Deals</div>
         </div>
       </div>
     </div>
@@ -192,17 +192,8 @@
 
 <style lang="scss" scoped>
 .home-container {
-  a {
-    font-weight: 600;
-  }
-
-  .categories {
-    .category {
-      .tab-by-category {
-        background: #ffffff;
-        box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
-      }
-    }
+  .tab-by-category {
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
   .feature_post_content {
@@ -210,15 +201,15 @@
   }
 
   .tab {
-    font-size: 18px;
-    padding: 2px 8px 0 15px;
-    position: absolute;
-    top: -13px;
     left: 0px;
-    color: #ffffff;
+    top: -13px;
     height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
     line-height: 45px;
-    font-family: "Battambang", Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding: 2px 8px 0 15px;
 
     &.tab-video {
       background: #F2272F;
@@ -246,9 +237,9 @@
     }
 
     .corner-tab {
-      position: absolute;
       top: 0px;
       right: -13px;
+      position: absolute;
       border-width: 45px 0 0 13px;
 
       &.corner-video {
@@ -278,14 +269,15 @@
   }
 
   .category-btn {
-    font-size: 14px;
-    padding: 2px 8px 0 15px;
-    position: absolute;
     top: 10px;
     left: 0px;
-    color: #ffffff;
     height: 35px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
     line-height: 35px;
+    position: absolute;
+    padding: 2px 8px 0 15px;
 
     &.category-btn1 {
       background: #f9a62b;
@@ -304,9 +296,9 @@
     }
 
     .corner {
-      position: absolute;
       top: 0;
       right: -12px;
+      position: absolute;
       border-width: 35px 0 0 13px;
 
       &.corner1 {
