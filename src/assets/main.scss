@@ -10,12 +10,13 @@
 }
 
 body {
-  background: #fff;
+  color: #636b6f;
+  background: #f6f6f6;
   overflow-y: auto;
   overflow-x: hidden;
 
   &::-webkit-scrollbar {
-    width: .8rem;
+    width: 0.8rem;
   }
 
   &::-webkit-scrollbar-track {

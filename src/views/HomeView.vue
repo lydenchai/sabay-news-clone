@@ -18,7 +18,7 @@
               </RouterLink>
             </div>
             <div class="feature_post_content absolute bottom-0">
-              <div class="p-5">
+              <div class="p-6">
                 <div class="text-white mb-3 hover:text-red-500 text-[16px] font-medium">
                   ស្ថាបនិកក្រុមហ៊ុន Microsoft លោក ប៊ីល ហ្គេត
                   បាន​អះអាង​ក្នុងព្រឹត្តិការណ៍ AI Forward 2023
@@ -45,7 +45,7 @@
               </RouterLink>
             </div>
             <div class="feature_post_content absolute bottom-0">
-              <div class="p-5">
+              <div class="p-6">
                 <div class="text-white mb-3 hover:text-red-500 text-[16px] font-medium">
                   អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
                   ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
@@ -120,7 +120,7 @@
             <div class="corner-tab corner-video"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#FA5480] px-8 pt-5 pb-3">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#FA5480] p-6">
           <div class="bg-slate-200 w-full h-full">Video</div>
         </div>
       </div>
@@ -132,7 +132,7 @@
             <div class="corner-tab corner-entertainment"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#FA5480] px-8 pt-5 pb-3">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#FA5480] p-6">
           <div class="bg-slate-200 w-full h-full">Entertainment</div>
         </div>
       </div>
@@ -144,7 +144,7 @@
             <div class="corner-tab corner-technology"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#38c378] px-8 pt-5 pb-3">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#38c378] p-6">
           <div class="bg-slate-200 w-full h-full">Technology</div>
         </div>
       </div>
@@ -156,7 +156,7 @@
             <div class="corner-tab corner-life"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#f9a62b] px-8 pt-5 pb-3">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#f9a62b] p-6">
           <div class="bg-slate-200 w-full h-full">Life and social</div>
         </div>
       </div>
@@ -168,7 +168,7 @@
             <div class="corner-tab corner-sport"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#4390F8] px-8 pt-5 pb-3">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#4390F8] p-6">
           <div class="bg-slate-200 w-full h-full">Sports</div>
         </div>
       </div>
@@ -180,7 +180,7 @@
             <div class="corner-tab corner-deal"></div>
           </div>
         </RouterLink>
-        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#555555] px-8 pt-5 pb-3">
+        <div class="tab-by-category h-[380px] mt-[30px] border-t-[3px] border-[#555555] p-6">
           <div class="bg-slate-200 w-full h-full">Deals</div>
         </div>
       </div>
