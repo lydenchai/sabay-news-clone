@@ -1,11 +1,13 @@
 <template>
   <div class="w-full h-auto mb-[80px]">
     <div class="flex justify-between mt-4 w-full">
-      Sport page
+      <Sports />
     </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Sports from "../components/Sports.vue"
+</script>
 
 <style lang="scss" scoped></style>

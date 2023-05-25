@@ -12,45 +12,45 @@
             </RouterLink>
           </li>
           <li id="entertainment" class="category">
-            <RouterLink to="/entertainment" class="menu_entertainment">
+            <RouterLink to="/entertainment" class="menu_entertainment font-semibold">
               កម្សាន្ត
             </RouterLink>
           </li>
           <li id="technology" class="category">
-            <RouterLink to="/technology" class="menu_technology">
+            <RouterLink to="/technology" class="menu_technology font-semibold">
               បច្ចេកវិទ្យា
             </RouterLink>
           </li>
           <li id="life" class="category">
-            <RouterLink to="/life" class="menu_life">
+            <RouterLink to="/life" class="menu_life font-semibold">
               ជីវិតនិងសង្គម
             </RouterLink>
           </li>
           <li id="sport" class="category">
-            <RouterLink to="/sports" class="menu_sport">កីឡា</RouterLink>
+            <RouterLink to="/sports" class="menu_sport font-semibold">កីឡា</RouterLink>
           </li>
           <li id="cambodia-sea-game-2023" class="category">
-            <RouterLink to="/sea-game-2023" class="menu_cambodia_sea_game_2023">
+            <RouterLink to="/sea-game-2023" class="menu_cambodia_sea_game_2023 font-semibold">
               ស៊ីហ្គេម ២០២៣
             </RouterLink>
           </li>
           <li id="autotalk" class="tag">
-            <RouterLink to="/auto-talk" class="menu_autotalk">
+            <RouterLink to="/auto-talk" class="menu_autotalk font-medium">
               AUTO TALK
             </RouterLink>
           </li>
           <li id="smart-axiata" class="tag">
-            <RouterLink to="/smart-axiata" class="menu_smart-axiata">
+            <RouterLink to="/smart-axiata" class="menu_smart-axiata font-medium">
               SMART HUB
             </RouterLink>
           </li>
           <li id="deals" class="category">
-            <RouterLink to="/deals" class="menu_deals no-unicode">
+            <RouterLink to="/deals" class="menu_deals no-unicode font-medium">
               DEALS
             </RouterLink>
           </li>
           <li id="starting-up" class="tag">
-            <RouterLink to="/starting-up" class="menu_starting-up">
+            <RouterLink to="/starting-up" class="menu_starting-up font-medium">
               STARTING UP
             </RouterLink>
           </li>
@@ -77,7 +77,6 @@ a:hover {
 ul>li>a {
   height: 50px;
   font-size: 18px;
-  font-weight: 600;
   padding: 8px 14px;
   position: relative;
   text-decoration: none;

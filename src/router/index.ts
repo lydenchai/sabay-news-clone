@@ -15,52 +15,52 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "Home",
+      name: "Sabay News",
       component: HomeView,
     },
     {
       path: "/entertainment",
-      name: "Entertainment",
+      name: "Entertainment - Sabay News",
       component: EntertainmentView,
     },
     {
       path: "/technology",
-      name: "Technology",
+      name: "Technology - Sabay News",
       component: TechnologyView,
     },
     {
       path: "/life",
-      name: "Life",
+      name: "Life - Sabay News",
       component: LifeView,
     },
     {
       path: "/sports",
-      name: "Sports",
+      name: "Sports - Sabay News",
       component: SportView,
     },
     {
       path: "/sea-game-2023",
-      name: "Sea game 2023",
+      name: "Sea game 2023 - Sabay News",
       component: SeaGame2023View,
     },
     {
       path: "/auto-talk",
-      name: "Auto Talk",
+      name: "Auto Talk - Sabay News",
       component: AutoTalkView,
     },
     {
       path: "/smart-axiata",
-      name: "Smart Axiata",
+      name: "Smart Axiata - Sabay News",
       component: SmartAxiataView,
     },
     {
       path: "/deals",
-      name: "Deals",
+      name: "Deals - Sabay News",
       component: DealView,
     },
     {
       path: "/starting-up",
-      name: "Starting Up",
+      name: "Starting U - Sabay Newsp",
       component: StartingView,
     },
   ],

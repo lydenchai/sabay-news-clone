@@ -1,11 +1,13 @@
 <template>
   <div class="w-full h-auto mb-[80px]">
     <div class="flex justify-between mt-4 w-full">
-      Smart axiata page
+      <SmartAxiata />
     </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import SmartAxiata from '../components/SmartAxiata.vue';
+</script>
 
 <style lang="scss" scoped></style>
