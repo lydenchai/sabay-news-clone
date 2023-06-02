@@ -13,7 +13,7 @@
       >
         <div class="w-full h-full">
           <div class="flex justify-between w-full mb-5">
-            <RouterLink to="" class="w-[48.5%] h-[288px] flex flex-col">
+            <RouterLink to="#" class="w-[48.5%] h-[288px] flex flex-col">
               <img
                 class="h-[206px] mb-3"
                 src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646de09cf1953_1684922520_medium.jpg"
@@ -23,7 +23,7 @@
                 ចុះកុងត្រាជាតារា K-POP
               </div>
             </RouterLink>
-            <RouterLink to="" class="w-[48.5%] h-[288px] flex flex-col">
+            <RouterLink to="#" class="w-[48.5%] h-[288px] flex flex-col">
               <img
                 class="h-[206px] mb-3"
                 src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646de09cf1953_1684922520_medium.jpg"
@@ -35,7 +35,7 @@
             </RouterLink>
           </div>
           <div v-for="value of 15" :key="value">
-            <RouterLink to="" class="flex justify-between w-full mt-4">
+            <RouterLink to="#" class="flex justify-between w-full mt-4">
               <img
                 class="w-[35%] h-[140px] mr-4"
                 src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646dc25b82844_1684914720_medium.jpg"

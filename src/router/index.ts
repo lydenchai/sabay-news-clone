@@ -11,7 +11,8 @@ import DealView from "../views/DealsView.vue";
 import StartingView from "../views/StartingView.vue";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
+  // history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
@@ -66,9 +67,9 @@ const router = createRouter({
   ],
 });
 
-router.beforeEach((to, from, next) => {
-  document.title = `${to.name}`;
-  next();
-});
+// router.beforeEach((to, from, next) => {
+//   document.title = `${to.name}`;
+//   next();
+// });
 
 export default router;

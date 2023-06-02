@@ -23,8 +23,6 @@ declare module '@vue/runtime-core' {
     Sports: typeof import('./src/components/Sports.vue')['default']
     Starting: typeof import('./src/components/Starting.vue')['default']
     Technology: typeof import('./src/components/Technology.vue')['default']
-    VanButton: typeof import('vant/es')['Button']
-    VanRate: typeof import('vant/es')['Rate']
     VanSticky: typeof import('vant/es')['Sticky']
   }
 }

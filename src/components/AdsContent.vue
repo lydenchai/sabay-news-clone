@@ -14,7 +14,7 @@
         <div class="w-[55px] border-[3px] border-[#E4242C]"></div>
       </div>
       <div v-for="value in 5" :key="value">
-        <RouterLink to="" class="mt-3 flex justify-between">
+        <RouterLink to="#" class="mt-3 flex justify-between">
           <img class="min-w-[40px] max-w-[40px] max-h-[40px] min-h-[40px] mr-2"
             src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Kumnith(1)/Kumnith-Ent/Ent(1)/646d7a6f43116_1684896360_medium.jpeg">
           <div class="text-[14px] font-semibold">
@@ -24,7 +24,7 @@
         </RouterLink>
       </div>
     </div>
-    <RouterLink to="">
+    <RouterLink to="#">
       <img src="https://ads.sabay.com/images/9937c76549fcc1c7abfaceb7648f5768.jpg" class="mb-5" />
     </RouterLink>
     <div class="mb-5 flex flex-col ">
@@ -33,7 +33,7 @@
         <div class="w-[55px] border-[3px] border-[#E4242C]"></div>
       </div>
       <div v-for="value in 5" :key="value">
-        <RouterLink to="" class="mt-3 flex justify-between">
+        <RouterLink to="#" class="mt-3 flex justify-between">
           <img class="min-w-[40px] max-w-[40px] max-h-[40px] min-h-[40px] mr-2"
             src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Kumnith(1)/Kumnith-Ent/Ent(1)/646d7a6f43116_1684896360_medium.jpeg">
           <div class="text-[14px] font-semibold">
@@ -43,7 +43,7 @@
         </RouterLink>
       </div>
     </div>
-    <RouterLink to="">
+    <RouterLink to="#">
       <img src="https://ads.sabay.com/images/2284a6573b045b616d7625c2b2ead5a3.gif" class="" />
     </RouterLink>
   </div>
