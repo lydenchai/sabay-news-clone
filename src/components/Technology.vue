@@ -13,45 +13,49 @@
       >
         <div class="w-full h-full">
           <div class="flex justify-between w-full mb-5">
-            <RouterLink to="#" class="w-[48.5%] h-[288px] flex flex-col">
+            <RouterLink to="#" class="w-[48.5%] h-[250px] flex flex-col">
+              <div class="box"></div>
               <img
-                class="h-[206px] mb-3"
+                class="h-[170px] mb-3"
                 src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646de09cf1953_1684922520_medium.jpg"
               />
-              <div class="h-[52px]">
+              <div class="h-[52px] text-[14px] font-[600]">
                 ផ្អើលសារព័ត៌មានបរទេស ចុះផ្សាយរឿងព្រះនាងតូច Jenna
                 ចុះកុងត្រាជាតារា K-POP
               </div>
             </RouterLink>
-            <RouterLink to="#" class="w-[48.5%] h-[288px] flex flex-col">
+            <RouterLink to="#" class="w-[48.5%] h-[250px] flex flex-col">
+              <div class="box"></div>
               <img
-                class="h-[206px] mb-3"
+                class="h-[170px] mb-3"
                 src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646de09cf1953_1684922520_medium.jpg"
               />
-              <div class="h-[52px]">
+              <div class="h-[52px] text-[14px] font-[600]">
                 ផ្អើលសារព័ត៌មានបរទេស ចុះផ្សាយរឿងព្រះនាងតូច Jenna
                 ចុះកុងត្រាជាតារា K-POP
               </div>
             </RouterLink>
           </div>
           <div v-for="value of 15" :key="value">
-            <RouterLink to="#" class="flex justify-between w-full h-auto  mt-4">
-              <div class="box w-[35%] h-[140px] mr-4">
-                <img
-                  class="item-img w-full h-full"
-                  src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646dc25b82844_1684914720_medium.jpg"
-                />
-              </div>
+            <RouterLink to="#" class="flex justify-between w-full mt-4">
+              <img
+                class="w-[35%] h-[110px] mr-4"
+                src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646dc25b82844_1684914720_medium.jpg"
+              />
               <div class="flex flex-col">
                 <div class="mb-[10px]">
-                  <div class="mb-1 text-[16px] font-bold">
+                  <div class="mb-1 text-[14px] font-[600]">
                     ជួបផលិតករ និងតារាភាពយន្ដល្បីឈ្មោះ
                     មុនមហោស្រពភាពយន្តអន្តរជាតិកម្ពុជា ចាប់ផ្ដើមនៅចុងនេះ
                   </div>
-                  <div class="mt-2 text-[#999999]">ថ្ងៃនេះ ម៉ោង 15:06</div>
+                  <div class="mt-2 text-[#999999] text-[12px]">
+                    ថ្ងៃនេះ ម៉ោង 15:06
+                  </div>
                   <hr />
                 </div>
-                <p class="text-[#555555]">មហោស្រពជិតចូលមកដល់ទៀតហើយ</p>
+                <p class="text-[#555555] text-[12px]">
+                  មហោស្រពជិតចូលមកដល់ទៀតហើយ
+                </p>
               </div>
             </RouterLink>
           </div>

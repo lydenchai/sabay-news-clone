@@ -1,10 +1,10 @@
 <template>
   <div class="w-full h-auto mb-[80px] home-container">
     <div class="flex justify-between mt-4 w-full h-[500px] border-collapse">
-      <div class="features_post flex flex-col h-full w-[73.3%]">
-        <div class="features_post_top w-full h-[500px] flex">
+      <div class="flex flex-col w-[73.3%]">
+        <div class="w-full h-[250px] flex">
           <div
-            class="bg-img w-[57.5%] h-[250px] relative"
+            class="bg-img w-[57.5%] h-full relative"
             style="
               background-image: url(https://static01.nyt.com/images/2021/05/17/business/14altGates-print/merlin_183135423_1167fa8a-7940-427e-b690-68876010d286-superJumbo.jpg);
               background-size: 100% 250px;
@@ -21,9 +21,9 @@
               </RouterLink>
             </div>
             <div class="feature_post_content absolute bottom-0">
-              <div class="p-6">
+              <div class="p-4">
                 <div
-                  class="text-white mb-3 hover:text-red-500 text-[16px] font-medium"
+                  class="text-white mb-3 hover:text-red-500 text-[14px] font-medium"
                 >
                   ស្ថាបនិកក្រុមហ៊ុន Microsoft លោក ប៊ីល ហ្គេត
                   បាន​អះអាង​ក្នុងព្រឹត្តិការណ៍ AI Forward 2023
@@ -36,7 +36,7 @@
             </div>
           </div>
           <div
-            class="w-[42.5%] h-[250px] relative"
+            class="w-[42.5%] h-full relative"
             style="
               background-image: url(https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/May-PR-Article/646c5d4489905_1684823340_large.jpg);
               background-size: 100% 250px;
@@ -53,9 +53,9 @@
               </RouterLink>
             </div>
             <div class="feature_post_content absolute bottom-0">
-              <div class="p-6">
+              <div class="p-4">
                 <div
-                  class="text-white mb-3 hover:text-red-500 text-[16px] font-medium"
+                  class="text-white mb-3 hover:text-red-500 text-[14px] font-medium"
                 >
                   អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
                   ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
@@ -65,9 +65,9 @@
             </div>
           </div>
         </div>
-        <div class="features_post_top w-full h-[500px] flex">
+        <div class="w-full h-[250px] flex">
           <div
-            class="w-[57.5%] h-[250px] relative"
+            class="w-[57.5%] h-full relative"
             style="
               background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6c/4d/da.jpg);
               background-size: 100% 250px;
@@ -84,9 +84,9 @@
               </RouterLink>
             </div>
             <div class="feature_post_content absolute bottom-0">
-              <div class="p-5">
+              <div class="p-4">
                 <div
-                  class="text-white mb-3 hover:text-red-500 text-[16px] font-medium"
+                  class="text-white mb-3 hover:text-red-500 text-[14px] font-medium"
                 >
                   អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
                   ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
@@ -96,7 +96,7 @@
             </div>
           </div>
           <div
-            class="w-[42.5%] h-[250px] relative"
+            class="w-[42.5%] h-full relative"
             style="
               background-image: url(https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/May-PR-Article/646c5d4489905_1684823340_large.jpg);
               background-size: 100% 250px;
@@ -113,9 +113,9 @@
               </RouterLink>
             </div>
             <div class="feature_post_content absolute bottom-0">
-              <div class="p-5">
+              <div class="p-4">
                 <div
-                  class="text-white mb-3 hover:text-red-500 text-[16px] font-medium"
+                  class="text-white mb-3 hover:text-red-500 text-[14px] font-medium"
                 >
                   អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
                   ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
@@ -159,7 +159,7 @@
                 >
                   <RouterLink to="#" class="flex flex-col w-[99.5%] h-full">
                     <img
-                      class="h-[199px]"
+                      class="h-[150px]"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg"
                     />
                     <div class="mt-2 text-[15px] font-semibold">
@@ -180,10 +180,10 @@
                   >
                     <RouterLink to="#" class="h-full flex flex-col mb-2 mr-5">
                       <img
-                        class="h-[92px] w-ful"
+                        class="h-[80px] w-ful"
                         src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                       />
-                      <div class="text-[13px] font-medium mt-1">
+                      <div class="text-[10px] font-medium mt-1">
                         IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                         បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                         ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -217,7 +217,7 @@
             <div class="flex item justify-between w-[45%] h-auto mb-2">
               <RouterLink to="#" class="flex flex-col h-full">
                 <div
-                  class="ele h-[199px] w-full"
+                  class="ele h-[150px] w-full"
                   style="
                     background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
                     background-color: #161616;
@@ -227,7 +227,7 @@
                   "
                 ></div>
                 <div
-                  class="bg-[#FA5480] text-[22px] p-5 text-white font-semibold"
+                  class="bg-[#FA5480] text-[16px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
@@ -243,13 +243,13 @@
                 >
                   <RouterLink
                     to="#"
-                    class="h-full flex flex-col mb-2 ml-5 relative"
+                    class="h-full flex flex-col mb-2 ml-3 relative"
                   >
                     <img
-                      class="h-[92px] w-ful"
+                      class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                     />
-                    <div class="text-[13px] font-medium mt-1">
+                    <div class="text-[10px] font-medium mt-1">
                       IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                       បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                       ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -276,7 +276,7 @@
             <div class="flex item justify-between w-[45%] h-auto mb-2">
               <RouterLink to="#" class="flex flex-col h-full">
                 <div
-                  class="ele h-[199px] w-full"
+                  class="ele h-[150px] w-full"
                   style="
                     background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
                     background-color: #161616;
@@ -286,7 +286,7 @@
                   "
                 ></div>
                 <div
-                  class="bg-[#38c378] text-[22px] p-5 text-white font-semibold"
+                  class="bg-[#38c378] text-[16px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
@@ -302,13 +302,13 @@
                 >
                   <RouterLink
                     to="#"
-                    class="h-full flex flex-col mb-2 ml-5 relative"
+                    class="h-full flex flex-col mb-2 ml-3 relative"
                   >
                     <img
-                      class="h-[92px] w-ful"
+                      class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                     />
-                    <div class="text-[13px] font-medium mt-1">
+                    <div class="text-[10px] font-medium mt-1">
                       IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                       បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                       ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -335,7 +335,7 @@
             <div class="flex item justify-between w-[45%] h-auto mb-2">
               <RouterLink to="#" class="flex flex-col h-full">
                 <div
-                  class="ele h-[199px] w-full"
+                  class="ele h-[150px] w-full"
                   style="
                     background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
                     background-color: #161616;
@@ -345,7 +345,7 @@
                   "
                 ></div>
                 <div
-                  class="bg-[#f9a62b] text-[22px] p-5 text-white font-semibold"
+                  class="bg-[#f9a62b] text-[16px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
@@ -361,13 +361,13 @@
                 >
                   <RouterLink
                     to="#"
-                    class="h-full flex flex-col mb-2 ml-5 relative"
+                    class="h-full flex flex-col mb-2 ml-3 relative"
                   >
                     <img
-                      class="h-[92px] w-ful"
+                      class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                     />
-                    <div class="text-[13px] font-medium mt-1">
+                    <div class="text-[10px] font-medium mt-1">
                       IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                       បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                       ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -394,7 +394,7 @@
             <div class="flex item justify-between w-[45%] h-auto mb-2">
               <RouterLink to="#" class="flex flex-col h-full">
                 <div
-                  class="ele h-[199px] w-full"
+                  class="ele h-[150px] w-full"
                   style="
                     background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
                     background-color: #161616;
@@ -404,7 +404,7 @@
                   "
                 ></div>
                 <div
-                  class="bg-[#4390F8] text-[22px] p-5 text-white font-semibold"
+                  class="bg-[#4390F8] text-[16px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
@@ -420,13 +420,13 @@
                 >
                   <RouterLink
                     to="#"
-                    class="h-full flex flex-col mb-2 ml-5 relative"
+                    class="h-full flex flex-col mb-2 ml-3 relative"
                   >
                     <img
-                      class="h-[92px] w-ful"
+                      class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                     />
-                    <div class="text-[13px] font-medium mt-1">
+                    <div class="text-[10px] font-medium mt-1">
                       IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                       បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                       ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -453,7 +453,7 @@
             <div class="flex justify-between w-[45%] h-auto mb-2">
               <RouterLink to="#" class="flex flex-col h-full">
                 <div
-                  class="h-[199px] w-full"
+                  class="h-[150px] w-full"
                   style="
                     background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
                     background-color: #161616;
@@ -463,7 +463,7 @@
                   "
                 ></div>
                 <div
-                  class="bg-[#555555] text-[22px] p-5 text-white font-semibold"
+                  class="bg-[#555555] text-[16px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
@@ -479,13 +479,13 @@
                 >
                   <RouterLink
                     to="#"
-                    class="h-full flex flex-col mb-2 ml-5 relative"
+                    class="h-full flex flex-col mb-2 ml-3 relative"
                   >
                     <img
-                      class="h-[92px] w-ful"
+                      class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                     />
-                    <div class="text-[13px] font-medium mt-1">
+                    <div class="text-[10px] font-medium mt-1">
                       IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                       បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                       ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
