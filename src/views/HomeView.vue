@@ -217,7 +217,7 @@
             <div class="flex item justify-between w-[45%] h-auto mb-2">
               <RouterLink to="#" class="flex flex-col h-full">
                 <div
-                  class="ele h-[199px] w-[321px]"
+                  class="ele h-[199px] w-full"
                   style="
                     background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
                     background-color: #161616;
@@ -227,7 +227,7 @@
                   "
                 ></div>
                 <div
-                  class="w-[321px] bg-[#FA5480] text-[22px] p-5 text-white font-semibold"
+                  class="bg-[#FA5480] text-[22px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
@@ -276,7 +276,7 @@
             <div class="flex item justify-between w-[45%] h-auto mb-2">
               <RouterLink to="#" class="flex flex-col h-full">
                 <div
-                  class="ele h-[199px] w-[321px]"
+                  class="ele h-[199px] w-full"
                   style="
                     background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
                     background-color: #161616;
@@ -286,7 +286,7 @@
                   "
                 ></div>
                 <div
-                  class="w-[321px] bg-[#38c378] text-[22px] p-5 text-white font-semibold"
+                  class="bg-[#38c378] text-[22px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
@@ -335,7 +335,7 @@
             <div class="flex item justify-between w-[45%] h-auto mb-2">
               <RouterLink to="#" class="flex flex-col h-full">
                 <div
-                  class="ele h-[199px] w-[321px]"
+                  class="ele h-[199px] w-full"
                   style="
                     background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
                     background-color: #161616;
@@ -345,7 +345,7 @@
                   "
                 ></div>
                 <div
-                  class="w-[321px] bg-[#f9a62b] text-[22px] p-5 text-white font-semibold"
+                  class="bg-[#f9a62b] text-[22px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
@@ -394,7 +394,7 @@
             <div class="flex item justify-between w-[45%] h-auto mb-2">
               <RouterLink to="#" class="flex flex-col h-full">
                 <div
-                  class="ele h-[199px] w-[321px]"
+                  class="ele h-[199px] w-full"
                   style="
                     background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
                     background-color: #161616;
@@ -404,7 +404,7 @@
                   "
                 ></div>
                 <div
-                  class="w-[321px] bg-[#4390F8] text-[22px] p-5 text-white font-semibold"
+                  class="bg-[#4390F8] text-[22px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
@@ -453,7 +453,7 @@
             <div class="flex justify-between w-[45%] h-auto mb-2">
               <RouterLink to="#" class="flex flex-col h-full">
                 <div
-                  class="h-[199px] w-[321px]"
+                  class="h-[199px] w-full"
                   style="
                     background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
                     background-color: #161616;
@@ -463,7 +463,7 @@
                   "
                 ></div>
                 <div
-                  class="w-[321px] bg-[#555555] text-[22px] p-5 text-white font-semibold"
+                  class="bg-[#555555] text-[22px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
