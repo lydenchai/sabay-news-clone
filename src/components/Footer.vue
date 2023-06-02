@@ -1,10 +1,10 @@
 <template>
-  <section class="w-full h-[295px] px-[20.3%] bg-black flex items-center">
+  <section class="w-full h-[295px] px-[18.6%] bg-black flex items-center">
     <div class="container flex justify-between">
       <div class="copyright flex flex-col w-[30%] mr-5">
         <img
           src="https://news.sabay.com.kh/img/footer-logo.png"
-          class="w-[130px] h-[50px] mb-3"
+          class="w-[140px] h-[60px] mb-3"
         />
         <div class="text-[12px]">
           ​© រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ Sabay ឆ្នាំ​២០១៦
@@ -98,7 +98,7 @@
           </a>
         </div>
       </div>
-      <div class="contact flex flex-col w-[30%] pl-9">
+      <div class="contact flex flex-col w-[30%] pl-10">
         <div class="text-[16px] mb-7">
           <strong>ជួបគ្នានៅបណ្តាញសង្គម</strong>
         </div>
