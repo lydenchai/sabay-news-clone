@@ -1,7 +1,7 @@
 <template>
   <div class="w-full h-auto mb-[80px] home-container">
     <div class="flex justify-between mt-4 w-full h-[500px] border-collapse">
-      <div class="flex flex-col w-[73.3%]">
+      <div class="flex flex-col w-[73.3%] md:w-full">
         <div class="w-full h-[250px] flex">
           <div
             class="bg-img w-[57.5%] h-full relative"
@@ -126,7 +126,7 @@
           </div>
         </div>
       </div>
-      <div class="top-right-ads w-[26%]">
+      <div class="top-right-ads w-[26%] md:hidden">
         <img
           src="https://ads.sabay.com/images/478ff8e39b041fe5d475200ffe81d645.jpg"
           class="w-full h-[247px] mb-[6px]"
@@ -147,17 +147,13 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#FA5480] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#FA5480] p-6 md:p-3"
         >
           <div class="w-full h-full flex flex-col">
             <div class="flex justify-between w-full h-auto mb-2">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[33.3%] sm:w-full"
-                  v-for="value of 3"
-                  :key="value"
-                >
-                  <RouterLink to="#" class="flex flex-col w-[99.5%] h-full">
+              <div class="video-card w-full">
+                <div class="" v-for="value of 3" :key="value">
+                  <RouterLink to="#" class="flex flex-col h-full w-full">
                     <img
                       class="h-[150px]"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg"
@@ -171,14 +167,10 @@
               </div>
             </div>
             <div class="w-full flex justify-between">
-              <div class="w-[70%] h-auto flex justify-between">
-                <div class="row">
-                  <div
-                    class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                    v-for="value of 8"
-                    :key="value"
-                  >
-                    <RouterLink to="#" class="h-full flex flex-col mb-2 mr-5">
+              <div class="w-[70%] h-auto flex justify-between md:w-full">
+                <div class="card w-full">
+                  <div class="" v-for="value of 8" :key="value">
+                    <RouterLink to="#" class="h-full flex flex-col mb-2">
                       <img
                         class="h-[80px] w-ful"
                         src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
@@ -192,7 +184,7 @@
                   </div>
                 </div>
               </div>
-              <div class="w-[30%]">
+              <div class="w-[30%] ml-2 md:hidden">
                 <img
                   class="w-full"
                   src="https://ads.sabay.com/images/03307f3c9ad63b97b9dffa2bd6ad2e31.gif"
@@ -211,11 +203,13 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#FA5480] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#FA5480] p-6 md:p-3"
         >
-          <div class="w-full h-full flex justify-between">
-            <div class="flex item justify-between w-[45%] h-auto mb-2">
-              <RouterLink to="#" class="flex flex-col h-full">
+          <div class="w-full h-full flex justify-between md:flex-col">
+            <div
+              class="flex item justify-between w-[45%] md:w-full h-auto mb-2"
+            >
+              <RouterLink to="#" class="flex flex-col h-full w-full">
                 <div
                   class="ele h-[150px] w-full"
                   style="
@@ -234,17 +228,10 @@
                 </div>
               </RouterLink>
             </div>
-            <div class="w-full flex justify-between">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                  v-for="value of 8"
-                  :key="value"
-                >
-                  <RouterLink
-                    to="#"
-                    class="h-full flex flex-col mb-2 ml-3 relative"
-                  >
+            <div class="w-full flex justify-between ml-2 md:ml-0">
+              <div class="card w-full">
+                <div class="" v-for="value of 8" :key="value">
+                  <RouterLink to="#" class="h-full flex flex-col mb-2 relative">
                     <img
                       class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
@@ -270,11 +257,13 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#38c378] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#38c378] p-6 md:p-3"
         >
-          <div class="w-full h-full flex justify-between">
-            <div class="flex item justify-between w-[45%] h-auto mb-2">
-              <RouterLink to="#" class="flex flex-col h-full">
+          <div class="w-full h-full flex justify-between md:flex-col">
+            <div
+              class="flex item justify-between w-[45%] md:w-full h-auto mb-2"
+            >
+              <RouterLink to="#" class="flex flex-col h-full w-full">
                 <div
                   class="ele h-[150px] w-full"
                   style="
@@ -293,17 +282,10 @@
                 </div>
               </RouterLink>
             </div>
-            <div class="w-full flex justify-between">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                  v-for="value of 8"
-                  :key="value"
-                >
-                  <RouterLink
-                    to="#"
-                    class="h-full flex flex-col mb-2 ml-3 relative"
-                  >
+            <div class="w-full flex justify-between ml-2 md:ml-0">
+              <div class="card w-full">
+                <div class="" v-for="value of 8" :key="value">
+                  <RouterLink to="#" class="h-full flex flex-col mb-2 relative">
                     <img
                       class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
@@ -329,11 +311,13 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#f9a62b] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#f9a62b] p-6 md:p-3"
         >
-          <div class="w-full h-full flex justify-between">
-            <div class="flex item justify-between w-[45%] h-auto mb-2">
-              <RouterLink to="#" class="flex flex-col h-full">
+          <div class="w-full h-full flex justify-between md:flex-col">
+            <div
+              class="flex item justify-between w-[45%] md:w-full h-auto mb-2"
+            >
+              <RouterLink to="#" class="flex flex-col h-full w-full">
                 <div
                   class="ele h-[150px] w-full"
                   style="
@@ -352,17 +336,10 @@
                 </div>
               </RouterLink>
             </div>
-            <div class="w-full flex justify-between">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                  v-for="value of 8"
-                  :key="value"
-                >
-                  <RouterLink
-                    to="#"
-                    class="h-full flex flex-col mb-2 ml-3 relative"
-                  >
+            <div class="w-full flex justify-between ml-2 md:ml-0">
+              <div class="card w-full">
+                <div class="" v-for="value of 8" :key="value">
+                  <RouterLink to="#" class="h-full flex flex-col mb-2 relative">
                     <img
                       class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
@@ -388,11 +365,13 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#4390F8] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#4390F8] p-6 md:p-3"
         >
-          <div class="w-full h-full flex justify-between">
-            <div class="flex item justify-between w-[45%] h-auto mb-2">
-              <RouterLink to="#" class="flex flex-col h-full">
+          <div class="w-full h-full flex justify-between md:flex-col">
+            <div
+              class="flex item justify-between w-[45%] md:w-full h-auto mb-2"
+            >
+              <RouterLink to="#" class="flex flex-col h-full w-full">
                 <div
                   class="ele h-[150px] w-full"
                   style="
@@ -411,17 +390,10 @@
                 </div>
               </RouterLink>
             </div>
-            <div class="w-full flex justify-between">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                  v-for="value of 8"
-                  :key="value"
-                >
-                  <RouterLink
-                    to="#"
-                    class="h-full flex flex-col mb-2 ml-3 relative"
-                  >
+            <div class="w-full flex justify-between ml-2 md:ml-0">
+              <div class="card w-full">
+                <div class="" v-for="value of 8" :key="value">
+                  <RouterLink to="#" class="h-full flex flex-col mb-2 relative">
                     <img
                       class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
@@ -447,11 +419,11 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#555555] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#555555] p-6 md:p-3"
         >
-          <div class="w-full h-full flex justify-between">
-            <div class="flex justify-between w-[45%] h-auto mb-2">
-              <RouterLink to="#" class="flex flex-col h-full">
+          <div class="w-full h-full flex justify-between md:flex-col">
+            <div class="flex justify-between w-[45%] md:w-full h-auto mb-2">
+              <RouterLink to="#" class="flex flex-col h-full w-full">
                 <div
                   class="h-[150px] w-full"
                   style="
@@ -470,17 +442,10 @@
                 </div>
               </RouterLink>
             </div>
-            <div class="w-full flex justify-between">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                  v-for="value of 8"
-                  :key="value"
-                >
-                  <RouterLink
-                    to="#"
-                    class="h-full flex flex-col mb-2 ml-3 relative"
-                  >
+            <div class="w-full flex justify-between ml-2 md:ml-0">
+              <div class="card w-full">
+                <div class="" v-for="value of 8" :key="value">
+                  <RouterLink to="#" class="h-full flex flex-col mb-2 relative">
                     <img
                       class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
@@ -641,4 +606,15 @@
 //   background-position: center center;
 //   background-repeat: no-repeat;
 // }
+
+.card {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+.video-card {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
 </style>

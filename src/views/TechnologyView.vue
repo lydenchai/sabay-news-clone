@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import Technology from '../components/Technology.vue'
+import Technology from "../components/Technology.vue";
 </script>
 
 <style lang="scss" scoped></style>

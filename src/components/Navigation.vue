@@ -1,6 +1,8 @@
 <template>
   <div class="text-2xl w-full">
-    <section class="w-full h-[95px] px-[18.6%] bg-black flex items-center">
+    <section
+      class="w-full h-[95px] px-[18.6%] lg:px-[6%] md:px-0 bg-black flex items-center"
+    >
       <img
         class="w-[65px] h-[65px]"
         src="https://news.sabay.com.kh/img/logo.png"
@@ -9,9 +11,12 @@
     <van-sticky>
       <nav
         id="menu"
-        class="navbar navbar-inverse navbar-static-top h-[40px] bg-[#fa1939] px-[18.6%] flex items-center"
+        class="navbar navbar-inverse navbar-static-top h-[40px] bg-[#fa1939] px-[18.6%] lg:px-[6%] md:px-0% flex items-center"
       >
         <ul class="h-full">
+          <!-- <li class="h-full grid items-center">
+            <i class="fa fa-bars"></i>
+          </li> -->
           <li class="h-full grid items-center">
             <RouterLink to="/">
               <Icon icon="ic:baseline-house" class="text-[18px]" />

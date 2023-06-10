@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import Entertainment from '../components/Entertainment.vue';
+import Entertainment from "../components/Entertainment.vue";
 </script>
 
 <style lang="scss" scoped></style>

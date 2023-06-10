@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import Deals from '../components/Deals.vue';
+import Deals from "../components/Deals.vue";
 </script>
 
 <style lang="scss" scoped></style>
