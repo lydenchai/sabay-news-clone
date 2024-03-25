@@ -596,6 +596,7 @@
     }
   }
 }
+
 // .item:hover .box .ele {
 //   background-size: 100% auto;
 //   transition: all 0.2s ease;
@@ -612,6 +613,7 @@
   grid-gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
+
 .video-card {
   display: grid;
   grid-gap: 0.5rem;

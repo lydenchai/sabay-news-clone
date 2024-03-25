@@ -110,6 +110,7 @@ import AdsContent from "../components/AdsContent.vue";
     border-color: transparent transparent transparent #555555;
   }
 }
+
 @media (max-width: 767px) {
   .card {
     display: grid;

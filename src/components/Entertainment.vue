@@ -116,6 +116,7 @@ import AdsContent from "./AdsContent.vue";
   transition: all 0.2s ease;
   box-shadow: inset 0 0 20px 0 black;
 }
+
 .box .ele {
   background-color: #161616;
   background-position: center center;
