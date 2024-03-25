@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import Sports from "../components/Sports.vue"
+import Sports from "../components/Sports.vue";
 </script>
 
 <style lang="scss" scoped></style>

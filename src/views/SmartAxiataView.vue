@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import SmartAxiata from '../components/SmartAxiata.vue';
+import SmartAxiata from "../components/SmartAxiata.vue";
 </script>
 
 <style lang="scss" scoped></style>

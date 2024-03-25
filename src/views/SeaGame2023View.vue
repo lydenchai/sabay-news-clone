@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import SeaGame from '../components/SeaGame.vue';
+import SeaGame from "../components/SeaGame.vue";
 </script>
 
 <style lang="scss" scoped></style>

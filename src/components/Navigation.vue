@@ -1,18 +1,32 @@
 <template>
   <div class="text-2xl w-full">
-    <section class="w-full h-[120px] px-[20.3%] bg-black flex items-center">
-      <img class="w-[82px] h-[82px]" src="https://news.sabay.com.kh/img/logo.png" />
+    <section
+      class="w-full h-[95px] px-[18.6%] lg:px-[6%] md:px-0 bg-black flex items-center"
+    >
+      <img
+        class="w-[65px] h-[65px]"
+        src="https://news.sabay.com.kh/img/logo.png"
+      />
     </section>
     <van-sticky>
-      <nav id="menu" class="navbar navbar-inverse navbar-static-top h-[50px] bg-[#fa1939] px-[20.3%] flex items-center">
+      <nav
+        id="menu"
+        class="navbar navbar-inverse navbar-static-top h-[40px] bg-[#fa1939] px-[18.6%] lg:px-[6%] md:px-0% flex items-center"
+      >
         <ul class="h-full">
+          <!-- <li class="h-full grid items-center">
+            <i class="fa fa-bars"></i>
+          </li> -->
           <li class="h-full grid items-center">
             <RouterLink to="/">
-              <Icon icon="ic:baseline-house" class="text-[25px]" />
+              <Icon icon="ic:baseline-house" class="text-[18px]" />
             </RouterLink>
           </li>
           <li id="entertainment" class="category">
-            <RouterLink to="/entertainment" class="menu_entertainment font-semibold">
+            <RouterLink
+              to="/entertainment"
+              class="menu_entertainment font-semibold"
+            >
               កម្សាន្ត
             </RouterLink>
           </li>
@@ -27,10 +41,15 @@
             </RouterLink>
           </li>
           <li id="sport" class="category">
-            <RouterLink to="/sports" class="menu_sport font-semibold">កីឡា</RouterLink>
+            <RouterLink to="/sports" class="menu_sport font-semibold"
+              >កីឡា</RouterLink
+            >
           </li>
           <li id="cambodia-sea-game-2023" class="category">
-            <RouterLink to="/sea-game-2023" class="menu_cambodia_sea_game_2023 font-semibold">
+            <RouterLink
+              to="/sea-game-2023"
+              class="menu_cambodia_sea_game_2023 font-semibold"
+            >
               ស៊ីហ្គេម ២០២៣
             </RouterLink>
           </li>
@@ -40,7 +59,10 @@
             </RouterLink>
           </li>
           <li id="smart-axiata" class="tag">
-            <RouterLink to="/smart-axiata" class="menu_smart-axiata font-medium">
+            <RouterLink
+              to="/smart-axiata"
+              class="menu_smart-axiata font-medium"
+            >
               SMART HUB
             </RouterLink>
           </li>
@@ -74,10 +96,10 @@ a:hover {
   transition: 0.3s;
 }
 
-ul>li>a {
-  height: 50px;
-  font-size: 18px;
-  padding: 8px 14px;
+ul > li > a {
+  height: 40px;
+  font-size: 14px;
+  padding: 5px 13px;
   position: relative;
   text-decoration: none;
   display: grid;
@@ -85,7 +107,7 @@ ul>li>a {
   color: rgba(255, 255, 255, 0.8);
 }
 
-nav>ul>li {
+nav > ul > li {
   float: left;
 }
 </style>

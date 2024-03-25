@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-between w-full text-[#444444]">
-    <div class="w-[73.3%] mt-[20px] flex flex-col relative">
+  <div class="flex justify-between w-full text-[#444444] md:flex-col">
+    <div class="w-[73.3%] md:w-full mt-[20px] flex flex-col relative">
       <RouterLink to="#">
         <div class="flex items-center tab w-auto">
           កម្សាន្ត
@@ -8,48 +8,81 @@
           <div class="corner-tab"></div>
         </div>
       </RouterLink>
-      <div class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#FA5480] p-6">
+      <div
+        class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#FA5480] p-6 md:p-3"
+      >
         <div class="w-full h-full">
-          <div class="flex justify-between w-full mb-5">
-            <RouterLink to="" class="w-[48.5%] h-[288px] flex flex-col">
-              <img class="h-[206px] mb-3"
-                src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646de09cf1953_1684922520_medium.jpg">
-              <div class="h-[52px]">ផ្អើលសារព័ត៌មានបរទេស ចុះផ្សាយរឿងព្រះនាងតូច Jenna ចុះកុងត្រាជាតារា K-POP</div>
-            </RouterLink>
-            <RouterLink to="" class="w-[48.5%] h-[288px] flex flex-col">
-              <img class="h-[206px] mb-3"
-                src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646de09cf1953_1684922520_medium.jpg">
-              <div class="h-[52px]">ផ្អើលសារព័ត៌មានបរទេស ចុះផ្សាយរឿងព្រះនាងតូច Jenna ចុះកុងត្រាជាតារា K-POP</div>
-            </RouterLink>
-          </div>
-          <div v-for="value of 15" :key="value">
-            <RouterLink to="" class="flex justify-between w-full mt-4">
-              <img class="w-[35%] h-[140px] mr-4"
-                src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646dc25b82844_1684914720_medium.jpg">
-              <div class="flex flex-col">
-                <div class="mb-[10px]">
-                  <div class="mb-1 text-[16px] font-bold">
-                    ជួបផលិតករ និងតារាភាពយន្ដល្បីឈ្មោះ មុនមហោស្រពភាពយន្តអន្តរជាតិកម្ពុជា ចាប់ផ្ដើមនៅចុងនេះ</div>
-                  <div class="mt-2 text-[#999999]">
-                    ថ្ងៃនេះ ម៉ោង 15:06
-                  </div>
-                  <hr>
-                </div>
-                <p class="text-[#555555]">មហោស្រពជិតចូលមកដល់ទៀតហើយ</p>
+          <div class="flex justify-between w-full h-auto mb-5 md:gap-2">
+            <RouterLink
+              to="#"
+              class="w-[49.5%] md:w-full h-[250px] md:h-auto flex flex-col"
+            >
+              <div class="box"></div>
+              <img
+                class="h-[170px] mb-3 object-cover"
+                src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646de09cf1953_1684922520_medium.jpg"
+              />
+              <div class="h-[52px] text-[14px] font-[600]">
+                ផ្អើលសារព័ត៌មានបរទេស ចុះផ្សាយរឿងព្រះនាងតូច Jenna
+                ចុះកុងត្រាជាតារា K-POP
               </div>
             </RouterLink>
+            <RouterLink
+              to="#"
+              class="w-[49.5%] md:w-full h-[250px] md:h-auto flex flex-col"
+            >
+              <div class="box"></div>
+              <img
+                class="h-[170px] mb-3 object-cover"
+                src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646de09cf1953_1684922520_medium.jpg"
+              />
+              <div class="h-[52px] text-[14px] font-[600]">
+                ផ្អើលសារព័ត៌មានបរទេស ចុះផ្សាយរឿងព្រះនាងតូច Jenna
+                ចុះកុងត្រាជាតារា K-POP
+              </div>
+            </RouterLink>
+          </div>
+          <div class="card w-full">
+            <div class="h-auto" v-for="value of 15" :key="value">
+              <RouterLink
+                to="#"
+                class="flex justify-between md:flex-col w-full mt-4"
+              >
+                <img
+                  class="min-w-[35%] h-[110px] mr-4 md:mr-0 md:mb-2 object-cover"
+                  src="https://cdn.sabay.com/cdn/media.sabay.com/media/Chin-Sopheak/CS-17/646dc25b82844_1684914720_medium.jpg"
+                />
+                <div class="flex flex-col">
+                  <div class="mb-[10px]">
+                    <div class="mb-1 text-[14px] font-[600]">
+                      ជួបផលិតករ និងតារាភាពយន្ដល្បីឈ្មោះ
+                      មុនមហោស្រពភាពយន្តអន្តរជាតិកម្ពុជា ចាប់ផ្ដើមនៅចុងនេះ
+                    </div>
+                    <div class="mt-2 text-[#999999] text-[12px]">
+                      ថ្ងៃនេះ ម៉ោង 15:06
+                    </div>
+                    <hr />
+                  </div>
+                  <p class="text-[#555555] text-[12px]">
+                    មហោស្រពជិតចូលមកដល់ទៀតហើយ
+                  </p>
+                </div>
+              </RouterLink>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="w-[24.3%] h-auto flex flex-col ">
+    <div
+      class="w-[24.3%] md:w-full md:items-center md:mt-5 h-auto flex flex-col"
+    >
       <AdsContent />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import AdsContent from './AdsContent.vue';
+import AdsContent from "./AdsContent.vue";
 </script>
 
 <style lang="scss" scoped>
@@ -75,6 +108,26 @@ import AdsContent from './AdsContent.vue';
     position: absolute;
     border-width: 45px 0 0 13px;
     border-color: transparent transparent transparent #fa5480;
+  }
+}
+
+.item:hover .box .ele {
+  background-size: 100% auto;
+  transition: all 0.2s ease;
+  box-shadow: inset 0 0 20px 0 black;
+}
+
+.box .ele {
+  background-color: #161616;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  .card {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
 </style>

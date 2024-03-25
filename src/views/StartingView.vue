@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import Starting from '../components/Starting.vue';
+import Starting from "../components/Starting.vue";
 </script>
 
 <style lang="scss" scoped></style>

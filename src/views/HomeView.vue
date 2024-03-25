@@ -1,10 +1,10 @@
 <template>
   <div class="w-full h-auto mb-[80px] home-container">
     <div class="flex justify-between mt-4 w-full h-[500px] border-collapse">
-      <div class="features_post flex flex-col h-full w-[73.3%]">
-        <div class="features_post_top w-full h-[500px] flex">
+      <div class="flex flex-col w-[73.3%] md:w-full">
+        <div class="w-full h-[250px] flex">
           <div
-            class="bg-img w-[57.5%] h-[250px] relative"
+            class="bg-img w-[57.5%] h-full relative"
             style="
               background-image: url(https://static01.nyt.com/images/2021/05/17/business/14altGates-print/merlin_183135423_1167fa8a-7940-427e-b690-68876010d286-superJumbo.jpg);
               background-size: 100% 250px;
@@ -21,9 +21,9 @@
               </RouterLink>
             </div>
             <div class="feature_post_content absolute bottom-0">
-              <div class="p-6">
+              <div class="p-4">
                 <div
-                  class="text-white mb-3 hover:text-red-500 text-[16px] font-medium"
+                  class="text-white mb-3 hover:text-red-500 text-[14px] font-medium"
                 >
                   ស្ថាបនិកក្រុមហ៊ុន Microsoft លោក ប៊ីល ហ្គេត
                   បាន​អះអាង​ក្នុងព្រឹត្តិការណ៍ AI Forward 2023
@@ -36,7 +36,7 @@
             </div>
           </div>
           <div
-            class="w-[42.5%] h-[250px] relative"
+            class="w-[42.5%] h-full relative"
             style="
               background-image: url(https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/May-PR-Article/646c5d4489905_1684823340_large.jpg);
               background-size: 100% 250px;
@@ -53,9 +53,9 @@
               </RouterLink>
             </div>
             <div class="feature_post_content absolute bottom-0">
-              <div class="p-6">
+              <div class="p-4">
                 <div
-                  class="text-white mb-3 hover:text-red-500 text-[16px] font-medium"
+                  class="text-white mb-3 hover:text-red-500 text-[14px] font-medium"
                 >
                   អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
                   ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
@@ -65,9 +65,9 @@
             </div>
           </div>
         </div>
-        <div class="features_post_top w-full h-[500px] flex">
+        <div class="w-full h-[250px] flex">
           <div
-            class="w-[57.5%] h-[250px] relative"
+            class="w-[57.5%] h-full relative"
             style="
               background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6c/4d/da.jpg);
               background-size: 100% 250px;
@@ -84,9 +84,9 @@
               </RouterLink>
             </div>
             <div class="feature_post_content absolute bottom-0">
-              <div class="p-5">
+              <div class="p-4">
                 <div
-                  class="text-white mb-3 hover:text-red-500 text-[16px] font-medium"
+                  class="text-white mb-3 hover:text-red-500 text-[14px] font-medium"
                 >
                   អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
                   ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
@@ -96,7 +96,7 @@
             </div>
           </div>
           <div
-            class="w-[42.5%] h-[250px] relative"
+            class="w-[42.5%] h-full relative"
             style="
               background-image: url(https://cdn.sabay.com/cdn/media.sabay.com/media/Simala/May-PR-Article/646c5d4489905_1684823340_large.jpg);
               background-size: 100% 250px;
@@ -113,9 +113,9 @@
               </RouterLink>
             </div>
             <div class="feature_post_content absolute bottom-0">
-              <div class="p-5">
+              <div class="p-4">
                 <div
-                  class="text-white mb-3 hover:text-red-500 text-[16px] font-medium"
+                  class="text-white mb-3 hover:text-red-500 text-[14px] font-medium"
                 >
                   អគារតេជោអភិវឌ្ឍន៍ ដែលទើបសម្ពោធ មាន១២ជាន់! ដឹងអត់ថា ជាន់នីមួយៗ
                   ព្យាបាលជំងឺ និងមាន​មុខងារ​អ្វីខ្លះ?
@@ -126,7 +126,7 @@
           </div>
         </div>
       </div>
-      <div class="top-right-ads w-[26%]">
+      <div class="top-right-ads w-[26%] md:hidden">
         <img
           src="https://ads.sabay.com/images/478ff8e39b041fe5d475200ffe81d645.jpg"
           class="w-full h-[247px] mb-[6px]"
@@ -147,19 +147,15 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#FA5480] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#FA5480] p-6 md:p-3"
         >
           <div class="w-full h-full flex flex-col">
             <div class="flex justify-between w-full h-auto mb-2">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[33.3%] sm:w-full"
-                  v-for="value of 3"
-                  :key="value"
-                >
-                  <RouterLink to="#" class="flex flex-col w-[99.5%] h-full">
+              <div class="video-card w-full">
+                <div class="" v-for="value of 3" :key="value">
+                  <RouterLink to="#" class="flex flex-col h-full w-full">
                     <img
-                      class="h-[199px]"
+                      class="h-[150px]"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg"
                     />
                     <div class="mt-2 text-[15px] font-semibold">
@@ -171,19 +167,15 @@
               </div>
             </div>
             <div class="w-full flex justify-between">
-              <div class="w-[70%] h-auto flex justify-between">
-                <div class="row">
-                  <div
-                    class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                    v-for="value of 8"
-                    :key="value"
-                  >
-                    <RouterLink to="#" class="h-full flex flex-col mb-2 mr-5">
+              <div class="w-[70%] h-auto flex justify-between md:w-full">
+                <div class="card w-full">
+                  <div class="" v-for="value of 8" :key="value">
+                    <RouterLink to="#" class="h-full flex flex-col mb-2">
                       <img
-                        class="h-[92px] w-ful"
+                        class="h-[80px] w-ful"
                         src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                       />
-                      <div class="text-[13px] font-medium mt-1">
+                      <div class="text-[10px] font-medium mt-1">
                         IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                         បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                         ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -192,7 +184,7 @@
                   </div>
                 </div>
               </div>
-              <div class="w-[30%]">
+              <div class="w-[30%] ml-2 md:hidden">
                 <img
                   class="w-full"
                   src="https://ads.sabay.com/images/03307f3c9ad63b97b9dffa2bd6ad2e31.gif"
@@ -211,47 +203,40 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#FA5480] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#FA5480] p-6 md:p-3"
         >
-          <div class="w-full h-full flex justify-between">
-            <div class="flex item justify-between w-[45%] h-auto mb-2">
-              <RouterLink to="#" class="flex flex-col h-full">
-                <div class="box">
-                  <div
-                    class="ele h-[199px] w-[321px] absolute top-[55px] left-[24px]"
-                    style="
-                      background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
-                      background-color: #161616;
-                      background-position: center center;
-                      background-repeat: no-repeat;
-                      background-size: auto;
-                    "
-                  ></div>
-                </div>
+          <div class="w-full h-full flex justify-between md:flex-col">
+            <div
+              class="flex item justify-between w-[45%] md:w-full h-auto mb-2"
+            >
+              <RouterLink to="#" class="flex flex-col h-full w-full">
                 <div
-                  class="absolute w-[321px] top-[253px] bg-[#FA5480] text-[22px] p-5 text-white font-semibold"
+                  class="ele h-[150px] w-full"
+                  style="
+                    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
+                    background-color: #161616;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: auto;
+                  "
+                ></div>
+                <div
+                  class="bg-[#FA5480] text-[16px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
                 </div>
               </RouterLink>
             </div>
-            <div class="w-full flex justify-between">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                  v-for="value of 8"
-                  :key="value"
-                >
-                  <RouterLink
-                    to="#"
-                    class="h-full flex flex-col mb-2 ml-5 relative"
-                  >
+            <div class="w-full flex justify-between ml-2 md:ml-0">
+              <div class="card w-full">
+                <div class="" v-for="value of 8" :key="value">
+                  <RouterLink to="#" class="h-full flex flex-col mb-2 relative">
                     <img
-                      class="h-[92px] w-ful"
+                      class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                     />
-                    <div class="text-[13px] font-medium mt-1">
+                    <div class="text-[10px] font-medium mt-1">
                       IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                       បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                       ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -272,47 +257,40 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#38c378] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#38c378] p-6 md:p-3"
         >
-          <div class="w-full h-full flex justify-between">
-            <div class="flex item justify-between w-[45%] h-auto mb-2">
-              <RouterLink to="#" class="flex flex-col h-full">
-                <div class="box">
-                  <div
-                    class="ele h-[199px] w-[321px] absolute top-[55px] left-[24px]"
-                    style="
-                      background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
-                      background-color: #161616;
-                      background-position: center center;
-                      background-repeat: no-repeat;
-                      background-size: auto;
-                    "
-                  ></div>
-                </div>
+          <div class="w-full h-full flex justify-between md:flex-col">
+            <div
+              class="flex item justify-between w-[45%] md:w-full h-auto mb-2"
+            >
+              <RouterLink to="#" class="flex flex-col h-full w-full">
                 <div
-                  class="absolute w-[321px] top-[253px] bg-[#38c378] text-[22px] p-5 text-white font-semibold"
+                  class="ele h-[150px] w-full"
+                  style="
+                    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
+                    background-color: #161616;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: auto;
+                  "
+                ></div>
+                <div
+                  class="bg-[#38c378] text-[16px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
                 </div>
               </RouterLink>
             </div>
-            <div class="w-full flex justify-between">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                  v-for="value of 8"
-                  :key="value"
-                >
-                  <RouterLink
-                    to="#"
-                    class="h-full flex flex-col mb-2 ml-5 relative"
-                  >
+            <div class="w-full flex justify-between ml-2 md:ml-0">
+              <div class="card w-full">
+                <div class="" v-for="value of 8" :key="value">
+                  <RouterLink to="#" class="h-full flex flex-col mb-2 relative">
                     <img
-                      class="h-[92px] w-ful"
+                      class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                     />
-                    <div class="text-[13px] font-medium mt-1">
+                    <div class="text-[10px] font-medium mt-1">
                       IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                       បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                       ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -333,47 +311,40 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#f9a62b] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#f9a62b] p-6 md:p-3"
         >
-          <div class="w-full h-full flex justify-between">
-            <div class="flex item justify-between w-[45%] h-auto mb-2">
-              <RouterLink to="#" class="flex flex-col h-full">
-                <div class="box">
-                  <div
-                    class="ele h-[199px] w-[321px] absolute top-[55px] left-[24px]"
-                    style="
-                      background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
-                      background-color: #161616;
-                      background-position: center center;
-                      background-repeat: no-repeat;
-                      background-size: auto;
-                    "
-                  ></div>
-                </div>
+          <div class="w-full h-full flex justify-between md:flex-col">
+            <div
+              class="flex item justify-between w-[45%] md:w-full h-auto mb-2"
+            >
+              <RouterLink to="#" class="flex flex-col h-full w-full">
                 <div
-                  class="absolute w-[321px] top-[253px] bg-[#f9a62b] text-[22px] p-5 text-white font-semibold"
+                  class="ele h-[150px] w-full"
+                  style="
+                    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
+                    background-color: #161616;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: auto;
+                  "
+                ></div>
+                <div
+                  class="bg-[#f9a62b] text-[16px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
                 </div>
               </RouterLink>
             </div>
-            <div class="w-full flex justify-between">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                  v-for="value of 8"
-                  :key="value"
-                >
-                  <RouterLink
-                    to="#"
-                    class="h-full flex flex-col mb-2 ml-5 relative"
-                  >
+            <div class="w-full flex justify-between ml-2 md:ml-0">
+              <div class="card w-full">
+                <div class="" v-for="value of 8" :key="value">
+                  <RouterLink to="#" class="h-full flex flex-col mb-2 relative">
                     <img
-                      class="h-[92px] w-ful"
+                      class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                     />
-                    <div class="text-[13px] font-medium mt-1">
+                    <div class="text-[10px] font-medium mt-1">
                       IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                       បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                       ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -394,47 +365,40 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#4390F8] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#4390F8] p-6 md:p-3"
         >
-          <div class="w-full h-full flex justify-between">
-            <div class="flex item justify-between w-[45%] h-auto mb-2">
-              <RouterLink to="#" class="flex flex-col h-full">
-                <div class="box">
-                  <div
-                    class="ele h-[199px] w-[321px] absolute top-[55px] left-[24px]"
-                    style="
-                      background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
-                      background-color: #161616;
-                      background-position: center center;
-                      background-repeat: no-repeat;
-                      background-size: auto;
-                    "
-                  ></div>
-                </div>
+          <div class="w-full h-full flex justify-between md:flex-col">
+            <div
+              class="flex item justify-between w-[45%] md:w-full h-auto mb-2"
+            >
+              <RouterLink to="#" class="flex flex-col h-full w-full">
                 <div
-                  class="absolute w-[321px] top-[253px] bg-[#4390F8] text-[22px] p-5 text-white font-semibold"
+                  class="ele h-[150px] w-full"
+                  style="
+                    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
+                    background-color: #161616;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: auto;
+                  "
+                ></div>
+                <div
+                  class="bg-[#4390F8] text-[16px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
                 </div>
               </RouterLink>
             </div>
-            <div class="w-full flex justify-between">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                  v-for="value of 8"
-                  :key="value"
-                >
-                  <RouterLink
-                    to="#"
-                    class="h-full flex flex-col mb-2 ml-5 relative"
-                  >
+            <div class="w-full flex justify-between ml-2 md:ml-0">
+              <div class="card w-full">
+                <div class="" v-for="value of 8" :key="value">
+                  <RouterLink to="#" class="h-full flex flex-col mb-2 relative">
                     <img
-                      class="h-[92px] w-ful"
+                      class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                     />
-                    <div class="text-[13px] font-medium mt-1">
+                    <div class="text-[10px] font-medium mt-1">
                       IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                       បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                       ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -455,47 +419,38 @@
           </div>
         </RouterLink>
         <div
-          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#555555] p-6"
+          class="tab-by-category h-auto mt-[30px] border-t-[3px] border-[#555555] p-6 md:p-3"
         >
-          <div class="w-full h-full flex justify-between">
-            <div class="flex item justify-between w-[45%] h-auto mb-2">
-              <RouterLink to="#" class="flex flex-col h-full">
-                <div class="box">
-                  <div
-                    class="ele h-[199px] w-[321px] absolute top-[55px] left-[24px]"
-                    style="
-                      background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
-                      background-color: #161616;
-                      background-position: center center;
-                      background-repeat: no-repeat;
-                      background-size: auto;
-                    "
-                  ></div>
-                </div>
+          <div class="w-full h-full flex justify-between md:flex-col">
+            <div class="flex justify-between w-[45%] md:w-full h-auto mb-2">
+              <RouterLink to="#" class="flex flex-col h-full w-full">
                 <div
-                  class="absolute w-[321px] top-[253px] bg-[#555555] text-[22px] p-5 text-white font-semibold"
+                  class="h-[150px] w-full"
+                  style="
+                    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_30/64214760db9c7_1679902560_medium.jpg');
+                    background-color: #161616;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: auto;
+                  "
+                ></div>
+                <div
+                  class="bg-[#555555] text-[16px] p-5 text-white font-semibold"
                 >
                   កោះរ៉ុង មានអ្វីពិសេសខ្លះទើបភ្ញៀវទេសចរបរទេស
                   ដែលមកកម្ពុជាមិនដែលរំលង តែងទៅលេងគ្មានដាច់
                 </div>
               </RouterLink>
             </div>
-            <div class="w-full flex justify-between">
-              <div class="row">
-                <div
-                  class="float-left xl:w-[25%] lg:w-[30%] sm:w-[50%]"
-                  v-for="value of 8"
-                  :key="value"
-                >
-                  <RouterLink
-                    to="#"
-                    class="h-full flex flex-col mb-2 ml-5 relative"
-                  >
+            <div class="w-full flex justify-between ml-2 md:ml-0">
+              <div class="card w-full">
+                <div class="" v-for="value of 8" :key="value">
+                  <RouterLink to="#" class="h-full flex flex-col mb-2 relative">
                     <img
-                      class="h-[92px] w-ful"
+                      class="h-[80px] w-ful"
                       src="https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Social-International/June(2)/June_27/63d9cb63c47d3_1675217760_medium.jpg"
                     />
-                    <div class="text-[13px] font-medium mt-1">
+                    <div class="text-[10px] font-medium mt-1">
                       IQ មួយលាន! អ្នកចាំទីឡើងជ្រុល
                       បានប្រើក្បាច់មួយសង្គ្រោះស្ថានការណ៍
                       ដែលកីឡាករទូទៅរកនឹកមិនឃើញ
@@ -641,14 +596,27 @@
     }
   }
 }
-.item:hover .box .ele {
-  background-size: 100% auto;
-  transition: all 0.2s ease;
-  box-shadow: inset 0 0 20px 0 black;
+
+// .item:hover .box .ele {
+//   background-size: 100% auto;
+//   transition: all 0.2s ease;
+//   box-shadow: inset 0 0 20px 0 black;
+// }
+// .box .ele {
+//   background-color: #161616;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+// }
+
+.card {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
-.box .ele {
-  background-color: #161616;
-  background-position: center center;
-  background-repeat: no-repeat;
+
+.video-card {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 </style>
